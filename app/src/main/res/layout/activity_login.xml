@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/loginbackgroud"
+    tools:context=".Login">
+
+      <androidx.cardview.widget.CardView
+          app:cardCornerRadius="20dp"
+          app:cardElevation="100dp"
+          android:layout_width="350dp"
+          android:layout_height="400dp"
+          app:cardBackgroundColor="@color/white">
+
+           <LinearLayout
+               android:orientation="vertical"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+                 <TextView
+                     android:layout_marginTop="20dp"
+                     android:id="@+id/font"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:layout_marginStart="0dp"
+                     android:fontFamily="@font/architects_daughter"
+                     android:text="CHATQUICKZ"
+                     android:textColor="@color/light_pink"
+                     android:textSize="40dp"
+                     android:textStyle="bold" />
+                 <LinearLayout
+                     android:orientation="horizontal"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+                       <ImageView
+                           android:layout_marginStart="5dp"
+                           android:layout_marginTop="30dp"
+                           android:src="@drawable/login"
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"/>
+                 <EditText
+
+                     android:background="@drawable/edt_background"
+                     android:paddingLeft="10dp"
+                     android:textColorHint="@color/gray"
+                     android:textColor="@color/black"
+                     android:id="@+id/edtUsernameL"
+                     android:layout_marginStart="5dp"
+                     android:layout_marginEnd="20dp"
+                     android:hint="Username"
+                     android:layout_marginTop="20dp"
+                     android:layout_width="match_parent"
+                     android:layout_height="50dp"/>
+                 </LinearLayout>
+
+                 <LinearLayout
+                     android:orientation="horizontal"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+                       <ImageView
+                           android:layout_marginStart="5dp"
+                           android:layout_marginTop="30dp"
+                           android:src="@drawable/password"
+                           android:layout_width="30dp"
+                           android:layout_height="30dp"/>
+                       <EditText
+                           android:background="@drawable/edt_background"
+                           android:paddingLeft="10dp"
+                           android:textColorHint="@color/gray"
+                           android:textColor="@color/black"
+                           android:id="@+id/edtPasswordL"
+                           android:layout_marginStart="5dp"
+                           android:hint="Password"
+                           android:layout_marginEnd="20dp"
+                           android:layout_marginTop="20dp"
+                           android:layout_width="match_parent"
+                           android:layout_height="50dp"/>
+                 </LinearLayout>
+
+                       <Button
+                           android:id="@+id/loginBtn"
+                           android:fontFamily="@font/architects_daughter"
+                           android:textColor="@color/black"
+                           android:layout_marginTop="20dp"
+                           android:text="Login"
+                          android:layout_gravity="center"
+                           android:background="@drawable/btn"
+                          android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"/>
+
+                 <TextView
+                     android:textColor="@color/gray"
+                     android:id="@+id/registerTxt"
+                     android:layout_marginTop="20dp"
+                     android:layout_gravity="center"
+                     android:text="Don't have an acount? Register Here!"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"/>
+
+           </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+</LinearLayout>

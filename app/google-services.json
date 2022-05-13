@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "276730775630",
+    "project_id": "chatquickz",
+    "storage_bucket": "chatquickz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:276730775630:android:9a87d4f31a364e88749b1f",
+        "android_client_info": {
+          "package_name": "com.example.chatquickz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "276730775630-9vvugiv7eik0ia0h5lv9ik9hk10idmo8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNfb6wrWCKLonvmPI5JyAU0eaHBmlU5L8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "276730775630-9vvugiv7eik0ia0h5lv9ik9hk10idmo8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
